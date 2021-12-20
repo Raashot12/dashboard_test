@@ -397,6 +397,9 @@ body {
     padding-right: 20px !important;
     padding-left: 20px;
   }
+  .greetings p{
+    width: 100%;
+  }
   .board h1{
     font-size: 25px;
   }
@@ -421,6 +424,7 @@ body {
   .reminder h4{
     font-size: 16px;
   }
+
 }
 
 @media (max-width: 939px) {

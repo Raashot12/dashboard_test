@@ -15,7 +15,7 @@ const Board = () => {
             <div className="box-content-one">
               <div className="greetings">
                 <h4>Good Morning, Eleanor</h4>
-                <p>
+                <p className="paragraph-greetings">
                   Welcome to your daily event calendar. Here you can see all the
                   upcoming events, meeting and create new events.
                 </p>
