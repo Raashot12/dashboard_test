@@ -1,0 +1,102 @@
+.navbar_sport_time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #040415;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 36px;
+  cursor: pointer;
+}
+
+.nav_item_container {
+  display: flex;
+  align-items: center;
+}
+.date_input {
+  display: flex;
+  align-items: center;
+}
+.date {
+  margin-right: 1rem;
+}
+.search_field {
+  height: 40px;
+  border: none;
+  background-color: #040415;
+  border-bottom: 2px solid green;
+  color: #ffff;
+  outline: none;
+}
+.input_field-container {
+  position: relative;
+}
+.search_icon {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+}
+.input_field-container input {
+  margin-left: 0.55rem;
+  width: 300px;
+  padding-left: 3rem;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+.profile-name {
+  margin-left: 61px;
+}
+.profile-name h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.profile-name p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+}
+.profile-container img {
+  width: 72px;
+  height: 72px;
+  margin-left: 25px;
+}
+
+::placeholder {
+  padding-left: 0rem;
+}
+
+/* MEDIA QUERIES*/
+@media (max-width: 576px) {
+  .navbar_sport_time {
+    padding-top: 20px;
+
+  }
+  .profile-name p{
+    font-size: 12px;
+  }
+  .profile-name h3 {
+    font-size: 14px;
+  }
+  .profile-container img {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 904px) {
+  .date_input {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar_sport_time {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
